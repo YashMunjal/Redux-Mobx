@@ -18,3 +18,5 @@ const reducer=(state={value:1},action)=>{
 }
 
 const store=createStore(reducer);
+
+store.dispatch({type:'ADD'},payload:{});
